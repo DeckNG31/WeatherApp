@@ -37,13 +37,13 @@ function mostrarDatosClima(response) {
   ciudadTitulo.textContent = `${placeName}, ${placeRegion}`;
 
   const ciudadTemp = document.createElement('p');
-  ciudadTemp.textContent = `Temperatura: ${placeTemp}°C`;
+  ciudadTemp.textContent = `Temperature: ${placeTemp}°C`;
 
   const horaLocalParrafo = document.createElement('p');
-  horaLocalParrafo.textContent = `Hora local: ${horaLocal}`;
+  horaLocalParrafo.textContent = `Local Time: ${horaLocal}`;
 
   const descripcionClima = document.createElement('p');
-  descripcionClima.textContent = `Condición: ${description}`;
+  descripcionClima.textContent = `Description: ${description}`;
 
   const iconoClima = document.createElement('img');
   iconoClima.src = `https:${icono}`;

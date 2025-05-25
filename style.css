@@ -1,0 +1,92 @@
+/* Estilo global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+}
+
+h1 {
+  margin-bottom: 25px;
+  color: #333;
+}
+
+input[type="text"] {
+  padding: 10px 15px;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #00c3ff;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #00c3ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #009ac1;
+}
+
+#datosClima {
+  margin-top: 25px;
+  text-align: left;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 12px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centra los elementos visualmente */
+}
+
+#datosClima h2 {
+  color: #222;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+#datosClima p {
+  margin: 6px 0;
+  font-size: 16px;
+  color: #444;
+  text-align: center;
+  width: 100%;
+}
+
+#datosClima img {
+  width: 64px;
+  height: 64px;
+  margin-top: 10px;
+}
